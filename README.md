@@ -2,6 +2,8 @@
 
 A collection of bilingual interactive pages about ancient civilizations, mythology, cities, writing systems, cultural history, and everyday life.
 
+**Live:** https://chengwq95.github.io/ancient-worlds/
+
 ## Read online
 
 | World | Description | Read | Source |
@@ -15,3 +17,7 @@ A collection of bilingual interactive pages about ancient civilizations, mytholo
 This repository is a simple directory for the ancient-world pages above. Each project remains independently developed and hosted in its own repository.
 
 Want to read locally? Clone any project repository and open its `index.html` file in a browser.
+
+## License
+
+Content and code are licensed under [CC BY-NC 4.0](LICENSE): free to share and adapt with attribution, for non-commercial use.

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ancient Worlds</title>
+<meta name="description" content="Bilingual interactive pages about ancient civilizations, mythology, cities, writing systems and everyday life.">
+<style>
+  :root { --bg:#f6f4ef; --fg:#1c1b19; --muted:#6b675f; --card:#ffffff; --line:#e2ded5; --accent:#1c1b19; --accent-fg:#ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141412; --fg:#f1eee8; --muted:#a29d93; --card:#1e1d1a; --line:#33312c; --accent:#f1eee8; --accent-fg:#141412; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif; line-height:1.55; }
+  main { max-width:960px; margin:0 auto; padding:72px 24px 96px; }
+  h1 { font-size:clamp(2rem,6vw,3.25rem); line-height:1.1; margin:0 0 16px; letter-spacing:-0.02em; }
+  .lead { color:var(--muted); font-size:1.125rem; max-width:60ch; margin:0 0 48px; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fill,minmax(270px,1fr)); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:24px; display:flex; flex-direction:column; }
+  .card h2 { font-size:1.2rem; margin:0 0 8px; }
+  .card p { color:var(--muted); margin:0 0 20px; flex:1; }
+  .links { display:flex; gap:10px; flex-wrap:wrap; }
+  .links a { text-decoration:none; color:var(--fg); border:1px solid var(--line); border-radius:999px; padding:8px 16px; font-size:0.95rem; }
+  .links a.primary { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
+  .links a:hover, .links a:focus-visible { outline:2px solid var(--fg); outline-offset:2px; }
+  footer { margin-top:56px; color:var(--muted); font-size:0.9rem; }
+  footer a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ancient Worlds</h1>
+  <p class="lead">Bilingual interactive pages about ancient civilizations, mythology, cities, writing systems and everyday life.</p>
+  <section class="grid">
+      <article class="card">
+        <h2>Ancient Egypt</h2>
+        <p>A long-form guide to gods, pharaohs, pyramids, mummies, hieroglyphs, the Nile, and daily life in ancient Egypt.</p>
+        <div class="links"><a class="primary" href="https://ancient-egypt-stories.pages.dev/">Read</a><a href="https://github.com/chengwq95/ancient-egypt">Source</a></div>
+      </article>
+      <article class="card">
+        <h2>Ancient Mesopotamia</h2>
+        <p>A guide to Sumer, Akkad, Babylon, Assyria, city-states, cuneiform, Hammurabi&#x27;s Code, gods, myths, and river civilizations.</p>
+        <div class="links"><a class="primary" href="https://ancient-mesopotamia-stories.pages.dev/">Read</a><a href="https://github.com/chengwq95/ancient-mesopotamia">Source</a></div>
+      </article>
+      <article class="card">
+        <h2>Ancient Greek</h2>
+        <p>A visual atlas of Greek gods, heroes, monsters, myths, temples, symbols, stories, and cultural memory.</p>
+        <div class="links"><a class="primary" href="https://ancient-greek-stories.pages.dev/">Read</a><a href="https://github.com/chengwq95/ancient-greek">Source</a></div>
+      </article>
+  </section>
+  <footer>By Cheng Wei Quan · <a href="https://github.com/chengwq95">github.com/chengwq95</a></footer>
+</main>
+</body>
+</html>
